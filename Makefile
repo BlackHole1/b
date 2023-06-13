@@ -43,5 +43,8 @@ build-all:
 	$(MAKE) build-darwin-amd64
 	$(MAKE) build-darwin-arm64
 
+lint:
+	golangci-lint run
+
 clean:
 	$(RM) ./bin
