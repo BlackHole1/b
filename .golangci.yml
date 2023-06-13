@@ -1,0 +1,14 @@
+linters:
+  enable:
+    - gocyclo
+    - unconvert
+    - unparam
+    - dogsled
+    - asciicheck
+    - bidichk
+    - bodyclose
+    - cyclop
+    - errorlint
+    - exhaustive
+  disable:
+    - structcheck
