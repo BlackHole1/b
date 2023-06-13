@@ -48,5 +48,8 @@ build-all:
 lint:
 	golangci-lint run
 
+install:
+	$(GO) install $(LDFLAGS) $(INPUT)
+
 clean:
 	$(RM) ./bin
