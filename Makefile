@@ -1,5 +1,7 @@
 .PHONY: clean
 
+SHELL := $(shell command -v bash;)
+
 ifeq ($(OS),Windows_NT)
     RM = cmd //C rmdir //Q //S
 else
